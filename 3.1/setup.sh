@@ -3,6 +3,7 @@
 # Raspberry Pi (Jessie) に
 #   OpenCV 3.1.0をインストールする
 # ---
+sudo apt-get update
 
 # 必要なライブラリをインストール
 sudo apt-get install -y cmake python3-dev python3.2-dev python3-numpy gcc build-essential cmake-curses-gui
