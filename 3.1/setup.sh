@@ -6,7 +6,7 @@
 sudo apt-get update
 
 # 必要なライブラリをインストール
-sudo apt-get install -y cmake python3-dev python3.2-dev python3-numpy gcc build-essential cmake-curses-gui
+sudo apt-get install -y cmake python3-dev python3.6-dev python3-numpy gcc build-essential cmake-curses-gui
 
 sudo apt-get install -y pkg-config libpng12-0 libpng12-dev libpng++-dev libpng3 libpnglite-dev zlib1g-dbg zlib1g zlib1g-dev pngtools libtiff5-dev libtiff4 libtiffxx0c2 libtiff-tools libeigen3-dev
 
