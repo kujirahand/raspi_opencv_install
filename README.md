@@ -4,7 +4,7 @@
 
 ```
 $ git clone https://github.com/kujirahand/raspi_opencv_install.git
-$ bash raspi_opencv_install/4.1/setup.sh
+$ bash raspi_opencv_install/setup.sh
 ```
 
 あるいは、本リポジトリのスクリプトを使わず、以下のコマンドを実行します。
