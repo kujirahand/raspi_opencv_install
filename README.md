@@ -1,4 +1,4 @@
-# ラズパイにOpenCV4.1をインストールする手順
+# ラズパイにOpenCV4.1をインストール
 
 ラズパイのターミナルで以下のコマンドを実行します。
 
@@ -21,7 +21,9 @@ $ sudo pip3 install opencv-contrib-python==4.1.0.25
 
 
 
-# OpenCV 3.1 をインストールしたい場合
+## OpenCV 3.1 をインストールしたい場合
+
+以下、古い方法で、OpenCV3.1をインストールする方法です。
 
 ラズパイ(Raspbian Jessie)のターミナルで以下のコマンドを実行します。
 
@@ -31,7 +33,7 @@ $ bash raspi_opencv_install/3.1/setup.sh
 ```
 
 
-# 手動で行う場合
+### 手動で行う場合
 
 上記の方法で実行できなければ、以下を実行します。
 
@@ -40,7 +42,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
-## ライブラリのインストール
+### ライブラリのインストール
 
 ```
 sudo apt-get install -y cmake python3-dev python3.6-dev python3-numpy gcc gcc-c++ build-essential cmake-curses-gui
