@@ -1,3 +1,3 @@
-#!/bin/sh
-./4.1/setup.sh
+#!/bin/bash
+/bin/bash ./4.1/setup.sh
 
